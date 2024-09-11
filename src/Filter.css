@@ -1,0 +1,48 @@
+/* Filter.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+  }
+  
+  h3 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px; 
+    padding-left: 15px;
+  }
+  
+  .filter-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 1px;
+    margin-right: 1px; /* Space between input and rating */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+    width: 100%; /* Color changes on focus */
+  }
+  
+  .star-rating {
+    font-size: 30px; /* Adjust star size */
+    color: #ffd700; 
+    margin-right: 5px; /* Golden color for stars */
+    width: 100%;
+  }
+  
+ 
